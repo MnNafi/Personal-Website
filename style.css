@@ -1,0 +1,95 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+section{
+    height: 700px;
+    padding-top: 100px;
+}
+p{
+    color: dimgray;
+}
+.purple-hl{
+    color: hotpink;
+    font-size: 40px;
+    font-weight: bold;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    padding-left:10%;
+
+}
+
+.link{
+    text-decoration: none;
+    padding: 10px 20px;
+    color: white;
+    background-image: linear-gradient(45deg,hotpink,salmon);
+    border-radius: 10px;
+}
+.half-width img{
+    width: 80%;
+}
+.header{
+    background-image: url(images/header-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.bio{
+    background-image: url(images/biography-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.center{
+    text-align: center;
+    font-size: 30px;
+}
+.latest-work{
+    background-image: url(images/latest-work-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.latest-pic{
+    width: 25%;
+    float: left;
+    margin: 0 auto;
+    padding-top:5%;
+    padding-left:7%;
+}
+.latest-pic img{
+    width: 100%;
+}
+.footer{
+    background-image: url(images/footer-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.client{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom:80px;
+}
+.mail{
+    text-align: center;
+    padding: 10px 20px;
+    background-image: linear-gradient(45deg,hotpink,salmon);
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+#gmail{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    padding: 10px 20px;
+}
+#msg{
+    color: white;
+    font-size: 20px;
+    padding: 10px 20px;
+}
+a:hover{
+    color: yellow;
+}
+#gmail:hover{
+    color: yellow;
+}
