@@ -1,11 +1,16 @@
 body{
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     line-height: 1.5;
-
 }
+
+h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+}
+
 section{
-    height: 500px;
+    height: 750px;
 }
 .half-width{
     float: left;
@@ -18,14 +23,17 @@ section{
 .half-width img{
     width: 100%;
 }
-.orange-highlights{
-    color: orange;
+.highlights{
+    color: tomato;
 }
 .intro{
     padding-top: 200px;
 }
+
+
 .top{
     text-align: right;
+    padding-top: 10px;
 }
 .link{
     text-decoration: none;
@@ -36,11 +44,18 @@ section{
     padding-top: 20px;
     padding-right: 20px;
 }
+.link:hover {
+    background-color: gainsboro;
+    padding: 10px 20px;
+    border-radius: 10px;
+  }
 
 .top-banner{
     background-image: url(images/header-bg.png);
     background-repeat: no-repeat;
+    background-size: 100%;
 }
+
 .hire-button{
     text-decoration: none;
     color: white;
@@ -49,6 +64,9 @@ section{
     background-image: linear-gradient(45deg, lightsalmon, tomato);
     border-radius: 10px;
 }
+.hire-button:hover {
+    padding: 11px 31px;
+}
 
 p{
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -56,7 +74,123 @@ p{
     color: gray;
 }
 
-.intro h1{
-    font-family:'Lobster', cursive;
-    font-size: 30px;
+
+.download-cv{
+    text-decoration: none;
+    color: white;
+    font-weight: 700p;
+    padding: 10px 30px;
+    background-image: linear-gradient(45deg, lightsalmon, tomato);
+    border-radius: 10px;
 }
+.download-cv:hover {
+    padding: 11px 31px;
+}
+
+.middle-about{
+        background-image: url(images/biography-bg.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+}
+
+.bio{
+    color: brown;
+}
+
+.center-text{
+    text-align: center;
+}
+
+.lasted-work{
+    background-image: url(images/latest-work-bg.png);
+}
+
+.work-img{
+    margin-top: 100px;
+    width: 23%;
+    text-align: center;
+    float: left;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 20px gray;
+    height: 70%;
+    border-radius: 10px;
+    background-color: white;
+}
+.work-img img{
+    width: 100%;
+    display: inline-block;
+}
+
+.work-img h2{
+    text-align: left;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+.work-img p{
+    text-align: left;
+    text-align: justify;
+    padding-right: 2%;
+    padding-left: 2%;
+}
+
+.chat-bg{
+    padding-top: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    position: relative;
+    color: white;
+}
+
+.chat-bg h1{
+    position: absolute;
+    bottom:10%;
+    left: 5%;
+
+}
+
+.chat-button{
+    position: absolute;
+    bottom: 25%;
+    right: 5%;
+    text-decoration: none;
+    color: white;
+    font-weight: 700p;
+    padding: 10px 30px;
+    background-image: linear-gradient(45deg, lightsalmon, tomato);
+    border-radius: 10px;
+}
+.chat-button:hover {
+    padding: 11px 31px;
+}
+
+
+.chat-bg img{
+    width: 100%;
+}
+
+.down-footer{
+    color: gray;
+    padding-top: 100px;
+    text-align: center;
+}
+.down-footer h2{
+    font-family: 'Lobster Two', cursive;
+    color: black;
+}
+
+.down-footer img{
+    padding-top: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+    width: 5%;
+}
+
+.footer{
+    background-image: url(images/footer-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
